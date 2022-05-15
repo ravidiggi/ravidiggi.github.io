@@ -43,34 +43,33 @@
 }
 
 .head {
-  background: linear-gradient(rgb(4, 8, 130), rgb(75, 31, 197));
+  background: linear-gradient(rgb(226, 85, 14), rgb(158, 125, 4));
   border: 2px solid rgb(34, 4, 34);
   transform: scale(1.02);
   border-radius: 10px;
 }
 
 .snake {
-  background-color: rgb(148, 17, 148);
+  background: linear-gradient(rgb(2, 23, 54), rgb(213, 141, 8));
   border: 0.25vmin solid rgb(245, 246, 240);
   border-radius: 10px;
 }
 
 .food {
-  background: linear-gradient(red, purple);
+  background: linear-gradient(rgb(46, 226, 229), rgb(13, 215, 175));
   border: 0.25vmin solid black;
   border-radius: 50px;
 }
 
 .btn {
-  border-radius: 30%;
-  background-color: #119bc1;
-  border: blue;
-  color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
+
   font-size: 16px;
+
+  background-color: white;
+  color: black;
+  border: 2px solid #1070a9;
 }
 
 #u {
