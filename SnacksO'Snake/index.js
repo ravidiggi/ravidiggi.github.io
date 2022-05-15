@@ -148,24 +148,28 @@ window.addEventListener("keydown", (e) => {
 });
 
 function uclick() {
+  moveSound.play();
   console.log("ArrowUp");
   inputDir.x = 0;
   inputDir.y = -1;
 }
 
 function dclick() {
+  moveSound.play();
   console.log("ArrowDown");
   inputDir.x = 0;
   inputDir.y = 1;
 }
 
 function lclick() {
+  moveSound.play();
   console.log("ArrowLeft");
   inputDir.x = -1;
   inputDir.y = 0;
 }
 
 function rclick() {
+  moveSound.play();
   console.log("ArrowRight");
   inputDir.x = 1;
   inputDir.y = 0;
